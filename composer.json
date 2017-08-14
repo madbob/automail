@@ -1,0 +1,18 @@
+{
+	"name": "madbob/automail",
+	"description": "SMTP, IMAP and POP3 autoconfiguration",
+	"keywords": ["mail", "smtp", "imap"],
+	"type": "package",
+	"license": "GPL-3.0+",
+	"authors": [{
+		"name": "Roberto Guido",
+		"email": "bob@linux.it"
+	}],
+	"autoload": {
+		"psr-4": {
+			"AutoMail\\": "src/"
+		}
+	},
+	"version": "0.1",
+	"minimum-stability": "stable"
+}
